@@ -2,7 +2,7 @@ from .base import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['137.184.110.91']
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
