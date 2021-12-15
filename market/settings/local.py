@@ -3,7 +3,7 @@ from .base import *
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['137.184.110.91']
 
@@ -28,7 +28,7 @@ else:
             'USER': get_secret('USER'),
             'PASSWORD': get_secret('PASSWORD'),
             'HOST': 'localhost',
-            'PORT': '5432',
+            'PORT': '',
         }
     }
 #
